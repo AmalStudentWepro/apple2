@@ -1,0 +1,360 @@
+* {
+    padding: 0;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+
+
+img {
+    max-width: 75%;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header img {
+    width: 30px;
+}
+
+
+.header2 {
+    background: #f5f5f7;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    padding: 14px 0;
+}
+
+.header2 img {
+    width: 30px;
+    height: 30px;
+}
+
+.new h2 {
+    color: rgb(185, 33, 33);
+}
+
+.new h1 {
+    font-size: 70px;
+}
+
+.new h3{
+    color: gray;
+}
+
+
+dialog {
+    width: 500px;
+    padding: 20px;
+    border: none;
+    border-radius: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    animation: fade .5s ease;
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        input {
+            border: 1px solid #c4c4c4;
+            border-radius: 8px;
+            padding: 4px;
+        }
+    }
+}
+
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        scale: .1;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.fade_inversion {
+    animation: fade_inversion .5s ease;
+}
+
+@keyframes fade_inversion {
+    from {
+        opacity: 1;
+        scale: 1;
+    }
+
+    to {
+        opacity: 0;
+        scale: .1;
+    }
+}
+
+.apple_123 {
+    width: 900px;
+    padding: 20px;
+    border: none;
+    border-radius: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    animation: fade .5s ease;
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        input {
+            border: 1px solid #c4c4c4;
+            border-radius: 8px;
+            padding: 4px;
+        }
+    }         
+}
+
+.open-menu {
+    right: 0px;
+}
+
+.imges img{
+    width: 500px;
+    height: 100px
+   
+}
+
+.apple_apple {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+} 
+
+
+
+.menu5 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(240, 240, 240, 1);
+    padding: 30px;
+}
+
+[data-modal] {
+    width: 300px;
+    height: 100px;
+    
+}
+
+[data-close]{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: gray;
+}
+
+.accardion {
+    width: 70%;
+    margin: 50px auto;
+    display: flex;flex-direction: column;
+    .item {
+        width: 100%;
+        background-color: #c4c4c4;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px;
+        height: 50px;
+        overflow: hidden;
+    } 
+}
+
+.item:hover {
+    height: 100%;
+}
+
+
+
+.iphones{
+    width: 1600px;
+    height: 700px;
+    background-image: url("https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch_GEO_US?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80Y2s4MzZBNmdHSVg2cThsZ3BMbUtsRkFOL1haWCt6TDJ0UWlLb09XajVNdENYR1ZZZnEyMVlVQUliTThGMjNyaFFCMHlJSDZlR29pR3RqbDNCaEg3eXpJM0RzVzJwYklZUFVyaVlFeTFhTzVnPT0=&traceId=1");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .5s ease;
+    border-radius: 30px;
+    position: sticky;
+    top: 0;
+    
+}
+
+.Natural {
+    font-size: 7px;
+    border-radius: 100px;
+    border: none;
+    background-color: antiquewhite;
+    width: 50px;
+    height: 50px;
+}
+.Black {
+    font-size: 7px;
+    border-radius: 100px;
+    border: none;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+}
+
+
+.Blue {
+    font-size: 7px;
+    border-radius: 100px;
+    border: none;
+    background-color: navy;
+    width: 50px;
+    height: 50px;
+}
+
+.White {
+    font-size: 7px;
+    border-radius: 100px;
+    border: none;
+    background-color: whitesmoke;
+    width: 50px;
+    height: 50px;
+}
+
+.iphones1 {
+    display: flex;
+    
+}
+
+
+.btns {
+    display: flex;
+    margin-top: auto;
+}
+
+span {
+    color: black;
+}
+
+.iphones1 h3 {
+    color: gray;
+}
+
+
+.header5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.header22 {
+    width: 400px;
+    height: 130px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 20px;
+    display: flex;
+    transition: box-shadow 0.3s ease;
+}
+
+.header22 span {
+    color: gray;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.header22 h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header22.active {
+    box-shadow: 0px 0px 5px blue;
+}
+
+
+.header33 {
+    width: 400px;
+    height: 130px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 20px;
+    display: flex;
+    background-color: #e3e3e3;
+}
+
+.header33 h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.header6{
+    font-size: 32px;
+}
+
+.header6 span{
+    color: gray;
+}
+
+
+.header44 {
+    width: 295px;
+    height: 110px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 20px;
+    display: flex;
+    transition: box-shadow 0.3s ease;
+
+}
+
+
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.header44 h3{
+    font-size: 13px;
+}
